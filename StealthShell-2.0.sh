@@ -1,5 +1,15 @@
 #!/bin/bash
-  
+
+echo "
+  _________.__               .__        __          
+ /   _____/|__| ____ _____  |__| ____ |  | __ ____  
+ \_____  \ |  |/    \\__  \ |  |/ ___\|  |/ // __ \ 
+ /        \|  |   |  \/ __ \|  \  \___|    <\  ___/ 
+/_______  /|__|___|  (____  /__|\___  >__|_ \\___  >
+        \/         \/     \/        \/    by Gabriele D'Attile 
+        StealthShell 2.0
+"
+
 # Funzione per nascondere la cronologia dei comandi Bash
 nascondi_bash_history() {
     export HISTFILE=/dev/null
@@ -131,7 +141,9 @@ esegui_in_parallelo() {
     else
         echo "Nessun comando eseguito in parallelo."
     fi
-}# Menu principale
+}
+
+# Menu principale
 echo "Scegli un'opzione:"
 echo "1. Nascondi la cronologia dei comandi Bash"
 echo "2. Attiva la modalità suicida"
@@ -165,12 +177,3 @@ case $scelta in
     12) echo "Arrivederci!"; exit;;
     *) echo "Scelta non valida. Riprova."; exit;;
 esac
-
-cat << "EOF"
-  _________.__               .__        __          
- /   _____/|__| ____ _____  |__| ____ |  | __ ____  
- \_____  \ |  |/    \\__  \ |  |/ ___\|  |/ // __ \ 
- /        \|  |   |  \/ __ \|  \  \___|    <\  ___/ 
-/_______  /|__|___|  (____  /__|\___  >__|_ \\___  >
-        \/         \/     \/        \/    by Gabriele D'Attile 
-        StealthShell 2.0
