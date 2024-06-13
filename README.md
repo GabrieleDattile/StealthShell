@@ -22,3 +22,8 @@ Per utilizzare lo script, esegui semplicemente il file:
 
 ```bash
 ./StealthShell.sh
+```
+<a href="https://www.blockchain.com/btc/address/bc1qdaamq2yfwvqvkvex2dl5p6s30c3c645htp3p94" target="_blank" style="display: inline-block; vertical-align: middle;">
+  <img src="https://github.com/GabrieleDattile/GabrieleDattile/assets/137740496/f5ee122e-89e7-4c5a-a33f-25aeb53b9b3f" alt="Bitcoin" style="width: 50px; height: 50px;">
+</a>
+<span style="display: inline-block; vertical-align: middle; margin-left: 10px;">bc1qdaamq2yfwvqvkvex2dl5p6s30c3c645htp3p94</span>
